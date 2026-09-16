@@ -1,12 +1,16 @@
+import os
+
 import requests
 import streamlit as st
 
 
-QUERY_API_URL = "http://127.0.0.1:8001/query"
-UPLOAD_API_URL = "http://127.0.0.1:8001/upload"
-FEEDBACK_API_URL = "http://127.0.0.1:8001/feedback"
-ANALYTICS_API_URL = "http://127.0.0.1:8001/analytics"
-DOCUMENTS_API_URL = "http://127.0.0.1:8001/documents"
+API_BASE_URL = os.getenv("API_BASE_URL", "http://127.0.0.1:8001").rstrip("/")
+
+QUERY_API_URL = f"{API_BASE_URL}/query"
+UPLOAD_API_URL = f"{API_BASE_URL}/upload"
+FEEDBACK_API_URL = f"{API_BASE_URL}/feedback"
+ANALYTICS_API_URL = f"{API_BASE_URL}/analytics"
+DOCUMENTS_API_URL = f"{API_BASE_URL}/documents"
 
 
 st.set_page_config(
