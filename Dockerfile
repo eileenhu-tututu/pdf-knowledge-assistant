@@ -2,13 +2,17 @@ FROM python:3.11-slim
 
 WORKDIR /app
 
-COPY requirements.txt .
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    PIP_NO_CACHE_DIR=1
 
-RUN pip install --no-cache-dir -r requirements.txt
+COPY requirements.txt ./requirements.txt
+
+RUN python -m pip install --upgrade pip \
+    && python -m pip install -r requirements.txt
 
 COPY . .
 
 EXPOSE 8001
-EXPOSE 8501
 
-CMD ["sh", "-c", "uvicorn main:app --host 0.0.0.0 --port 8001 & streamlit run app.py --server.address 0.0.0.0 --server.port 8501"]
+CMD ["python", "-m", "uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8001"]
