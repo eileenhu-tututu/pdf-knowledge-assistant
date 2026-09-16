@@ -1,0 +1,90 @@
+[
+  {
+    "question": "What power ratings are available for the X3-AELIO series?",
+    "expected_answer": "49.9 kW, 50 kW, 60 kW, and 61 kW"
+  },
+  {
+    "question": "What is the maximum recommended PV array power of X3-AELIO-49.9K?",
+    "expected_answer": "100 kWp"
+  },
+  {
+    "question": "What is the maximum recommended PV array power of X3-AELIO-49.9K-P?",
+    "expected_answer": "120 kWp"
+  },
+  {
+    "question": "What is the maximum recommended PV array power of X3-AELIO-50K?",
+    "expected_answer": "100 kWp"
+  },
+  {
+    "question": "What is the maximum recommended PV array power of X3-AELIO-60K?",
+    "expected_answer": "120 kWp"
+  },
+  {
+    "question": "What is the maximum recommended PV array power of X3-AELIO-61K?",
+    "expected_answer": "120 kWp"
+  },
+  {
+    "question": "What is the maximum PV input voltage of the X3-AELIO?",
+    "expected_answer": "1000 V"
+  },
+  {
+    "question": "What is the rated PV input voltage of the X3-AELIO?",
+    "expected_answer": "650 V"
+  },
+  {
+    "question": "What is the MPPT voltage range of the X3-AELIO?",
+    "expected_answer": "160–950 V"
+  },
+  {
+    "question": "What is the start-up voltage of the X3-AELIO?",
+    "expected_answer": "180 V"
+  },
+  {
+    "question": "What is the maximum input current per MPPT of X3-AELIO?",
+    "expected_answer": "40 A"
+  },
+  {
+    "question": "What is the maximum input short circuit current per MPPT of X3-AELIO?",
+    "expected_answer": "50 A"
+  },
+  {
+    "question": "What is the rated output power of X3-AELIO-49.9K?",
+    "expected_answer": "49.9 kW"
+  },
+  {
+    "question": "What is the rated output power of X3-AELIO-50K?",
+    "expected_answer": "50.0 kW"
+  },
+  {
+    "question": "What is the rated output power of X3-AELIO-60K?",
+    "expected_answer": "60.0 kW"
+  },
+  {
+    "question": "What is the rated output power of X3-AELIO-61K?",
+    "expected_answer": "61.0 kW"
+  },
+  {
+    "question": "What battery type does the X3-AELIO support?",
+    "expected_answer": "LFP"
+  },
+  {
+    "question": "What is the battery voltage range of the X3-AELIO?",
+    "expected_answer": "180–820 V"
+  },
+  {
+    "question": "What is the maximum charge and discharge current of the X3-AELIO?",
+    "expected_answer": "160 A (80 A × 2)"
+  },
+  {
+    "question": "What is the maximum efficiency of the X3-AELIO?",
+    "expected_answer": "98.0%"
+  },
+  {
+    "question": "What power ratings are available for the X3-AELIO series?",
+    "expected_answer": "49.9 kW, 50 kW, 60 kW, and 61 kW"
+  },
+  {
+    "question": "How many models are available in the X3-AELIO series?",
+    "expected_answer": "5 models"
+  }
+]
